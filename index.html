@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>S.S Café &amp; Juice — Fresh Juices &amp; Milkshakes, Bidar</title>
+  <meta name="description" content="S.S Café & Juice, Bidar — fresh fruit juices, seasonal specials, dryfruit juices, ice cream shakes, punches and mocktails." />
+  <meta name="theme-color" content="#0b0907" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%23ffb23f'/%3E%3Ctext x='32' y='42' font-family='Georgia' font-style='italic' font-size='28' text-anchor='middle' fill='%231a1206'%3ESS%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="cursor" aria-hidden="true"><span>View</span></div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+
+  <!-- Preloader -->
+  <div class="preloader" aria-hidden="true">
+    <div class="preloader__top"><span>S.S Café &amp; Juice</span><span>Bidar · Karnataka</span></div>
+    <div class="preloader__word"><span>F</span><span>r</span><span>e</span><span>s</span><span>h</span></div>
+    <div class="preloader__bottom"><span>Pressing fruit…</span><span class="preloader__count">0</span></div>
+    <div class="preloader__bar"></div>
+  </div>
+
+  <!-- Navigation -->
+  <header class="nav">
+    <a href="index.html" class="brand" aria-label="S.S Café & Juice home">
+      <span class="brand__mark">ss</span>
+      <span class="brand__name">S.S Café &amp; Juice<small>Bidar</small></span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#story">Story</a>
+      <a href="#signatures">Signatures</a>
+      <a href="#season">In Season</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <div class="nav__right">
+      <a href="menu.html" class="btn btn--primary btn--sm">Full Menu
+        <span class="btn__icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+      <button class="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div class="mobile-menu">
+    <a href="#story">Story</a>
+    <a href="#signatures">Signatures</a>
+    <a href="#season">In Season</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#visit">Visit</a>
+    <a href="menu.html"><em>Full Menu →</em></a>
+    <div class="mobile-menu__meta">Bidar, Karnataka · Open daily 10:30 AM – 10:30 PM<br /><a href="tel:+919590787872">+91 95907 87872</a></div>
+  </div>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="hero__media">
+        <picture>
+          <source media="(max-width: 700px)" srcset="https://images.unsplash.com/photo-1615478503562-ec2d8aa0e24e?auto=format&fit=crop&w=900&h=1600&q=80" />
+          <img src="https://images.unsplash.com/photo-1622597467836-f3285f2131b8?auto=format&fit=crop&w=1920&q=80" alt="A row of colourful fresh smoothies in jars on a warm-lit bar" fetchpriority="high" />
+        </picture>
+      </div>
+      <div class="hero__shade"></div>
+      <div class="scroll-cue">Scroll</div>
+
+      <div class="container hero__content">
+        <span class="eyebrow hero-anim">Juices · Milkshakes · Ice Cream</span>
+        <h1 class="hero__title">
+          <span class="line" data-hero>Pressed fresh,</span>
+          <span class="line line--indent" data-hero><em class="italic accent">poured</em> slow.</span>
+        </h1>
+        <div class="hero__bottom">
+          <p class="hero__lead hero-anim">Whole fruit, cut and pressed the moment you order. Thick shakes, dryfruit blends and seasonal juices, right here in Bidar.</p>
+          <div class="hero__meta hero-anim">
+            <div><strong>62</strong>drinks on the menu</div>
+            <div><strong>₹50</strong>glasses start at</div>
+          </div>
+          <a href="menu.html" class="btn btn--primary hero-anim">Explore the Menu
+            <span class="btn__icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <!-- duplicated twice for seamless loop -->
+        <div class="marquee__item">Fresh Fruit Juice<svg class="marquee__star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0l2.6 9.4L24 12l-9.4 2.6L12 24l-2.6-9.4L0 12l9.4-2.6z"/></svg></div>
+        <div class="marquee__item">Ice Cream Shakes<svg class="marquee__star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0l2.6 9.4L24 12l-9.4 2.6L12 24l-2.6-9.4L0 12l9.4-2.6z"/></svg></div>
+        <div class="marquee__item">Dryfruit Juices<svg class="marquee__star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0l2.6 9.4L24 12l-9.4 2.6L12 24l-2.6-9.4L0 12l9.4-2.6z"/></svg></div>
+        <div class="marquee__item">Punches<svg class="marquee__star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0l2.6 9.4L24 12l-9.4 2.6L12 24l-2.6-9.4L0 12l9.4-2.6z"/></svg></div>
+        <div class="marquee__item">Mocktails<svg class="marquee__star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0l2.6 9.4L24 12l-9.4 2.6L12 24l-2.6-9.4L0 12l9.4-2.6z"/></svg></div>
+        <div class="marquee__item">Season Specials<svg class="marquee__star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0l2.6 9.4L24 12l-9.4 2.6L12 24l-2.6-9.4L0 12l9.4-2.6z"/></svg></div>
+        <div class="marquee__item">Fresh Fruit Juice<svg class="marquee__star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0l2.6 9.4L24 12l-9.4 2.6L12 24l-2.6-9.4L0 12l9.4-2.6z"/></svg></div>
+        <div class="marquee__item">Ice Cream Shakes<svg class="marquee__star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0l2.6 9.4L24 12l-9.4 2.6L12 24l-2.6-9.4L0 12l9.4-2.6z"/></svg></div>
+        <div class="marquee__item">Dryfruit Juices<svg class="marquee__star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0l2.6 9.4L24 12l-9.4 2.6L12 24l-2.6-9.4L0 12l9.4-2.6z"/></svg></div>
+        <div class="marquee__item">Punches<svg class="marquee__star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0l2.6 9.4L24 12l-9.4 2.6L12 24l-2.6-9.4L0 12l9.4-2.6z"/></svg></div>
+        <div class="marquee__item">Mocktails<svg class="marquee__star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0l2.6 9.4L24 12l-9.4 2.6L12 24l-2.6-9.4L0 12l9.4-2.6z"/></svg></div>
+        <div class="marquee__item">Season Specials<svg class="marquee__star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0l2.6 9.4L24 12l-9.4 2.6L12 24l-2.6-9.4L0 12l9.4-2.6z"/></svg></div>
+      </div>
+    </div>
+
+    <!-- STORY -->
+    <section class="section story" id="story">
+      <div class="container story__grid">
+        <div>
+          <span class="eyebrow fade-up">Our Story</span>
+          <p class="manifesto" id="manifesto">
+            We keep it honest. Ripe fruit on the counter, a blender that never rests, and a glass that tastes exactly like what went into it. From a ₹50 banana juice to a ₹280 dryfruit punch, every order is made fresh, made to order, made for Bidar.
+          </p>
+          <div class="story__facts">
+            <div class="fade-up"><div class="fact__num"><span data-count="62">0</span></div><div class="fact__label">Drinks on the menu</div></div>
+            <div class="fade-up" data-delay=".1"><div class="fact__num"><span data-count="8">0</span></div><div class="fact__label">Categories to explore</div></div>
+            <div class="fade-up" data-delay=".2"><div class="fact__num"><span data-count="100">0</span><sup>%</sup></div><div class="fact__label">Made to order</div></div>
+          </div>
+        </div>
+
+        <div class="story__visual">
+          <div class="story__img-a img-reveal">
+            <img src="https://images.unsplash.com/photo-1619566636858-adf3ef46400b?auto=format&fit=crop&w=1200&q=80" alt="Mangoes, kiwis, grapes and pineapple piled together" loading="lazy" />
+          </div>
+          <div class="story__img-b img-reveal">
+            <img src="https://images.unsplash.com/photo-1546173159-315724a31696?auto=format&fit=crop&w=800&q=80" alt="Fresh mango juice beside cut mango" loading="lazy" />
+          </div>
+          <div class="story__badge" aria-hidden="true">
+            <svg viewBox="0 0 132 132"><defs><path id="circ" d="M66,66 m-50,0 a50,50 0 1,1 100,0 a50,50 0 1,1 -100,0"/></defs><text><textPath href="#circ">Fresh · Daily · Bidar · Fresh · Daily · Bidar ·</textPath></text></svg>
+            <b>ss</b>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SIGNATURES (pinned horizontal scroll) -->
+    <section class="signatures" id="signatures">
+      <div class="h-wrap">
+        <div class="h-track">
+          <div class="sig-intro">
+            <div>
+              <span class="eyebrow">House Signatures</span>
+              <h2 class="section-title" data-split>The ones <em class="italic accent">everyone</em> orders.</h2>
+            </div>
+            <p>Seven glasses our regulars come back for. Drag, swipe or keep scrolling.</p>
+          </div>
+
+          <article class="sig-card" data-cursor="view">
+            <span class="sig-card__idx">01</span>
+            <div class="sig-card__media"><img src="https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=900&q=80" alt="Creamy dryfruit punch being poured" loading="lazy" /></div>
+            <div class="sig-card__body"><div><div class="sig-card__cat">Dryfruit</div><h3 class="sig-card__name">Mix Dryfruit Punch</h3></div><div class="sig-card__price">₹280</div></div>
+          </article>
+          <article class="sig-card" data-cursor="view">
+            <span class="sig-card__idx">02</span>
+            <div class="sig-card__media"><img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=900&q=80" alt="Oreo milkshake topped with cream and cookie" loading="lazy" /></div>
+            <div class="sig-card__body"><div><div class="sig-card__cat">Ice Cream Shake</div><h3 class="sig-card__name">Oreo Shake</h3></div><div class="sig-card__price">₹130</div></div>
+          </article>
+          <article class="sig-card" data-cursor="view">
+            <span class="sig-card__idx">03</span>
+            <div class="sig-card__media"><img src="https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?auto=format&fit=crop&w=900&q=80" alt="Thick mango punch with fresh mango" loading="lazy" /></div>
+            <div class="sig-card__body"><div><div class="sig-card__cat">Juice + Ice Cream</div><h3 class="sig-card__name">Mango Punch</h3></div><div class="sig-card__price">₹180</div></div>
+          </article>
+          <article class="sig-card" data-cursor="view">
+            <span class="sig-card__idx">04</span>
+            <div class="sig-card__media"><img src="https://images.unsplash.com/photo-1577805947697-89e18249d767?auto=format&fit=crop&w=900&q=80" alt="Chocolate shake with whipped cream on a dark background" loading="lazy" /></div>
+            <div class="sig-card__body"><div><div class="sig-card__cat">Ice Cream Shake</div><h3 class="sig-card__name">Choco Banana</h3></div><div class="sig-card__price">₹130</div></div>
+          </article>
+          <article class="sig-card" data-cursor="view">
+            <span class="sig-card__idx">05</span>
+            <div class="sig-card__media"><img src="https://images.unsplash.com/photo-1497534446932-c925b458314e?auto=format&fit=crop&w=900&q=80" alt="Strawberry drinks with lime and mint" loading="lazy" /></div>
+            <div class="sig-card__body"><div><div class="sig-card__cat">Juice + Ice Cream</div><h3 class="sig-card__name">Strawberry Punch</h3></div><div class="sig-card__price">₹180</div></div>
+          </article>
+          <article class="sig-card" data-cursor="view">
+            <span class="sig-card__idx">06</span>
+            <div class="sig-card__media"><img src="https://images.unsplash.com/photo-1610970881699-44a5587cabec?auto=format&fit=crop&w=900&q=80" alt="Green avocado punch with kiwi and apple" loading="lazy" /></div>
+            <div class="sig-card__body"><div><div class="sig-card__cat">Juice + Ice Cream</div><h3 class="sig-card__name">Avocado Punch</h3></div><div class="sig-card__price">₹180</div></div>
+          </article>
+          <article class="sig-card" data-cursor="view">
+            <span class="sig-card__idx">07</span>
+            <div class="sig-card__media"><img src="https://images.unsplash.com/photo-1595981267035-7b04ca84a82d?auto=format&fit=crop&w=900&q=80" alt="Watermelon mocktail with citrus" loading="lazy" /></div>
+            <div class="sig-card__body"><div><div class="sig-card__cat">Mocktail</div><h3 class="sig-card__name">Watermelon</h3></div><div class="sig-card__price">₹100</div></div>
+          </article>
+
+          <div class="sig-end">
+            <h3>55 more ways to cool down.</h3>
+            <a href="menu.html" class="btn btn--ghost">See everything
+              <span class="btn__icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CINEMATIC BREAK -->
+    <section class="cine">
+      <div class="cine__media" data-parallax="8">
+        <img src="https://images.unsplash.com/photo-1536935338788-846bb9981813?auto=format&fit=crop&w=2400&q=80" alt="" loading="lazy" />
+      </div>
+      <div class="cine__text">
+        <span class="eyebrow">Since day one</span>
+        <h2 class="cine__quote" data-split>Nothing <em class="italic accent">waits</em> on a shelf.<br />Everything waits for <em class="italic">you.</em></h2>
+      </div>
+    </section>
+
+    <!-- CATEGORIES -->
+    <section class="section" id="categories">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow fade-up">The Menu, in Eight Moods</span>
+            <h2 class="section-title" data-split>Pick your <em class="italic accent">pour.</em></h2>
+          </div>
+          <p class="section-sub fade-up">From light morning juices to thick dessert shakes. Tap a category to jump straight to it on the full menu.</p>
+        </div>
+
+        <div class="bento">
+          <a href="menu.html#fresh-fruit-juice" class="tile t-1 fade-up" data-cursor="view">
+            <img src="https://images.unsplash.com/photo-1613478223719-2ab802602423?auto=format&fit=crop&w=1400&q=80" alt="Orange juice with fresh oranges" loading="lazy" />
+            <span class="tile__count">13 juices</span>
+            <div class="tile__body"><div><h3 class="tile__name">Fresh Fruit Juice</h3><div class="tile__from">From ₹50</div></div><span class="tile__arrow">→</span></div>
+          </a>
+          <a href="menu.html#ice-cream-shakes" class="tile t-2 fade-up" data-cursor="view">
+            <img src="https://images.unsplash.com/photo-1541658016709-82535e94bc69?auto=format&fit=crop&w=1000&q=80" alt="Loaded chocolate freakshake" loading="lazy" />
+            <span class="tile__count">11 shakes</span>
+            <div class="tile__body"><div><h3 class="tile__name">Ice Cream Shakes</h3><div class="tile__from">From ₹100</div></div><span class="tile__arrow">→</span></div>
+          </a>
+          <a href="menu.html#juice-with-ice-cream" class="tile t-3 fade-up" data-cursor="view">
+            <img src="https://images.unsplash.com/photo-1525385133512-2f3bdd039054?auto=format&fit=crop&w=1000&q=80" alt="Papaya punch with fruit skewer" loading="lazy" />
+            <span class="tile__count">12 punches</span>
+            <div class="tile__body"><div><h3 class="tile__name">Juice with Ice Cream</h3><div class="tile__from">From ₹100</div></div><span class="tile__arrow">→</span></div>
+          </a>
+          <a href="menu.html#season-juices" class="tile t-4 fade-up" data-cursor="view">
+            <img src="https://images.unsplash.com/photo-1610832958506-aa56368176cf?auto=format&fit=crop&w=900&q=80" alt="Seasonal fruits flat lay" loading="lazy" />
+            <span class="tile__count">8 juices</span>
+            <div class="tile__body"><div><h3 class="tile__name">Season Juices</h3><div class="tile__from">From ₹110</div></div><span class="tile__arrow">→</span></div>
+          </a>
+          <a href="menu.html#dryfruit-juices" class="tile t-5 fade-up" data-cursor="view">
+            <img src="https://images.unsplash.com/photo-1638176066666-ffb2f013c7dd?auto=format&fit=crop&w=900&q=80" alt="Creamy dryfruit shake in a jar" loading="lazy" />
+            <span class="tile__count">6 blends</span>
+            <div class="tile__body"><div><h3 class="tile__name">Dryfruit Juices</h3><div class="tile__from">From ₹200</div></div><span class="tile__arrow">→</span></div>
+          </a>
+          <a href="menu.html#mocktails" class="tile t-6 fade-up" data-cursor="view">
+            <img src="https://images.unsplash.com/photo-1556881286-fc6915169721?auto=format&fit=crop&w=900&q=80" alt="Lime and mint mocktail" loading="lazy" />
+            <span class="tile__count">3 mocktails</span>
+            <div class="tile__body"><div><h3 class="tile__name">Mocktails</h3><div class="tile__from">From ₹100</div></div><span class="tile__arrow">→</span></div>
+          </a>
+          <a href="menu.html#vegetable-juices" class="tile t-7 fade-up" data-cursor="view">
+            <img src="https://images.unsplash.com/photo-1560508180-03f285f67ded?auto=format&fit=crop&w=1000&q=80" alt="Deep red beetroot style juice" loading="lazy" />
+            <span class="tile__count">4 juices</span>
+            <div class="tile__body"><div><h3 class="tile__name">Vegetable Juices</h3><div class="tile__from">From ₹90</div></div><span class="tile__arrow">→</span></div>
+          </a>
+          <a href="menu.html#scoop-ice-cream" class="tile t-8 fade-up" data-cursor="view">
+            <img src="https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&w=1400&q=80" alt="Ice cream cones with berries and flowers" loading="lazy" />
+            <span class="tile__count">5 flavours</span>
+            <div class="tile__body"><div><h3 class="tile__name">Scoop Ice Cream</h3><div class="tile__from">From ₹80</div></div><span class="tile__arrow">→</span></div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- IN SEASON -->
+    <section class="section season" id="season">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow fade-up">Only in Season</span>
+            <h2 class="section-title" data-split>When it's ripe, <em class="italic accent">it's here.</em></h2>
+          </div>
+          <p class="section-sub fade-up">Some fruits can't be rushed. These juices arrive with the harvest and leave with it.</p>
+        </div>
+
+        <div class="season-list">
+          <div class="season-row" data-img="0"><span class="season-row__no">01</span><span class="season-row__name">Mango</span><span class="season-row__months">Apr — Jun</span><span class="season-row__price">₹130</span></div>
+          <div class="season-row" data-img="1"><span class="season-row__no">02</span><span class="season-row__name">Strawberry</span><span class="season-row__months">Dec — Mar</span><span class="season-row__price">₹130</span></div>
+          <div class="season-row" data-img="2"><span class="season-row__no">03</span><span class="season-row__name">Sitaphal</span><span class="season-row__months">Sep — Nov</span><span class="season-row__price">₹130</span></div>
+          <div class="season-row" data-img="3"><span class="season-row__no">04</span><span class="season-row__name">Jamun</span><span class="season-row__months">Jun — Jul</span><span class="season-row__price">₹130</span></div>
+          <div class="season-row" data-img="4"><span class="season-row__no">05</span><span class="season-row__name">Avocado <em class="italic" style="font-size:.5em;opacity:.7">butter fruit</em></span><span class="season-row__months">Jul — Sep</span><span class="season-row__price">₹130</span></div>
+          <div class="season-row" data-img="5"><span class="season-row__no">06</span><span class="season-row__name">Dragon Fruit</span><span class="season-row__months">Jun — Nov</span><span class="season-row__price">₹110</span></div>
+        </div>
+        <p class="season-note fade-up">Availability follows the harvest. Ask at the counter what's in today.</p>
+      </div>
+
+      <div class="season-float" aria-hidden="true">
+        <img src="https://images.unsplash.com/photo-1546173159-315724a31696?auto=format&fit=crop&w=600&q=80" alt="" loading="lazy" />
+        <img src="https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?auto=format&fit=crop&w=600&q=80" alt="" loading="lazy" />
+        <img src="https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=600&q=80" alt="" loading="lazy" />
+        <img src="https://images.unsplash.com/photo-1600718374662-0483d2b9da44?auto=format&fit=crop&w=600&q=80" alt="" loading="lazy" />
+        <img src="https://images.unsplash.com/photo-1519162808019-7de1683fa2ad?auto=format&fit=crop&w=600&q=80" alt="" loading="lazy" />
+        <img src="https://images.unsplash.com/photo-1553530666-ba11a7da3888?auto=format&fit=crop&w=600&q=80" alt="" loading="lazy" />
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="section" id="gallery">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow fade-up">Gallery</span>
+            <h2 class="section-title" data-split>Colour, <em class="italic accent">by the glass.</em></h2>
+          </div>
+          <p class="section-sub fade-up">A look at what comes off the counter every day. Tap any photo to open it full screen.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <figure class="g-item fade-up" data-cursor="view"><img src="https://images.unsplash.com/photo-1622597467836-f3285f2131b8?auto=format&fit=crop&w=900&h=1200&q=80" alt="Three fresh smoothies in jars" loading="lazy" /><figcaption>Fresh Trio</figcaption></figure>
+          <figure class="g-item fade-up" data-cursor="view"><img src="https://images.unsplash.com/photo-1546548970-71785318a17b?auto=format&fit=crop&w=900&h=700&q=80" alt="Sliced citrus fruits" loading="lazy" /><figcaption>Citrus</figcaption></figure>
+          <figure class="g-item fade-up" data-cursor="view"><img src="https://images.unsplash.com/photo-1553530666-ba11a7da3888?auto=format&fit=crop&w=900&h=1100&q=80" alt="Berry smoothies topped with fruit" loading="lazy" /><figcaption>Berry Blend</figcaption></figure>
+          <figure class="g-item fade-up" data-cursor="view"><img src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?auto=format&fit=crop&w=900&h=1000&q=80" alt="Strawberry ice cream cone" loading="lazy" /><figcaption>Strawberry Scoop</figcaption></figure>
+          <figure class="g-item fade-up" data-cursor="view"><img src="https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?auto=format&fit=crop&w=900&h=1200&q=80" alt="Golden tropical juice with a straw" loading="lazy" /><figcaption>Pineapple</figcaption></figure>
+          <figure class="g-item fade-up" data-cursor="view"><img src="https://images.unsplash.com/photo-1600718374662-0483d2b9da44?auto=format&fit=crop&w=900&h=1100&q=80" alt="Berries falling into a smoothie" loading="lazy" /><figcaption>Jamun</figcaption></figure>
+          <figure class="g-item fade-up" data-cursor="view"><img src="https://images.unsplash.com/photo-1505252585461-04db1eb84625?auto=format&fit=crop&w=900&h=700&q=80" alt="Layered milkshakes in glasses" loading="lazy" /><figcaption>Shakes</figcaption></figure>
+          <figure class="g-item fade-up" data-cursor="view"><img src="https://images.unsplash.com/photo-1523677011781-c91d1bbe2f9e?auto=format&fit=crop&w=900&h=1100&q=80" alt="Lemon coolers with flowers" loading="lazy" /><figcaption>Coolers</figcaption></figure>
+          <figure class="g-item fade-up" data-cursor="view"><img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=900&h=1000&q=80" alt="Chocolate Oreo sundae" loading="lazy" /><figcaption>Oreo</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- VISIT -->
+    <section class="section" id="visit" style="padding-top:0">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow fade-up">Visit Us</span>
+            <h2 class="section-title" data-split>Come thirsty, <em class="italic accent">leave happy.</em></h2>
+          </div>
+        </div>
+
+        <div class="visit__grid">
+          <div class="visit__info">
+            <div class="visit__block fade-up"><h4>Address</h4><p>S.S Café &amp; Juice<br />Bidar, Karnataka</p></div>
+            <div class="visit__block fade-up">
+              <h4>Hours</h4>
+              <table class="hours">
+                <tr><td>Open every day</td><td>10:30 AM — 10:30 PM</td></tr>
+              </table>
+            </div>
+            <div class="visit__block fade-up"><h4>Phone</h4><p><a href="tel:+919590787872">+91 95907 87872</a></p></div>
+            <div class="fade-up" style="display:flex;gap:12px;flex-wrap:wrap">
+              <a href="tel:+919590787872" class="btn btn--primary">Call the Café
+                <span class="btn__icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+              </a>
+              <a href="https://www.google.com/maps/dir/?api=1&destination=17.9257175,77.4955509" target="_blank" rel="noopener" class="btn btn--ghost">Directions
+                <span class="btn__icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+              </a>
+            </div>
+          </div>
+          <div class="map img-reveal">
+            <span class="map__pin">● S.S Café &amp; Juice</span>
+            <iframe title="Map showing S.S Café & Juice in Bidar" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=17.9257175,77.4955509&z=17&output=embed"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__cta">
+        <h2 data-split>Thirsty yet?<br /><em class="italic accent">The menu's waiting.</em></h2>
+        <a href="menu.html" class="btn btn--primary">Open the Menu
+          <span class="btn__icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </a>
+      </div>
+      <div class="footer__cols">
+        <div><h5>Explore</h5><a href="#story">Our Story</a><a href="#signatures">Signatures</a><a href="#season">In Season</a><a href="#gallery">Gallery</a></div>
+        <div><h5>Menu</h5><a href="menu.html#fresh-fruit-juice">Fresh Fruit Juice</a><a href="menu.html#ice-cream-shakes">Ice Cream Shakes</a><a href="menu.html#dryfruit-juices">Dryfruit Juices</a><a href="menu.html#mocktails">Mocktails</a></div>
+        <div><h5>Find us</h5><a href="https://maps.app.goo.gl/4yC3fa9TvVvdDudY7" target="_blank" rel="noopener">Bidar, Karnataka</a><a href="tel:+919590787872">+91 95907 87872</a><a href="#visit">Daily 10:30 AM – 10:30 PM</a></div>
+      </div>
+      <div class="footer__word" aria-hidden="true">S.S Café</div>
+      <div class="footer__legal"><span>© <span id="year"></span> S.S Café &amp; Juice, Bidar</span><span>Photography via Unsplash</span></div>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+    <button class="lightbox__close" aria-label="Close">×</button>
+    <button class="lightbox__nav lightbox__prev" aria-label="Previous photo">←</button>
+    <img src="" alt="" />
+    <button class="lightbox__nav lightbox__next" aria-label="Next photo">→</button>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>
