@@ -8,59 +8,59 @@
       id: "fresh-fruit-juice", title: "Fresh Fruit Juice", img: img("1613478223719-2ab802602423"),
       desc: "Everyday fruit, pressed to order. Light, bright and the easiest way to start.",
       items: [
-        ["Banana", 50], ["Papaya", 50], ["Mosambi", 50], ["Pineapple", 60],
-        ["Ganga Jamuna", 70, "Mosambi & orange"], ["Orange", 70], ["Apple", 70], ["Grapes", 80],
-        ["Chikoo / Sapota", 70], ["Watermelon", 70], ["Muskmelon", 70], ["Mix Juice", 70], ["Anar", 100, "Pomegranate"],
+        ["Banana", 60], ["Papaya", 60], ["Mosambi", 60], ["Pineapple", 70],
+        ["Ganga Jamuna", 80, "Mosambi & orange"], ["Orange", 80], ["Apple", 80], ["Grapes", 90],
+        ["Chikoo / Sapota", 80], ["Watermelon", 80], ["Muskmelon", 80], ["Mix Juice", 80], ["Anar", 110, "Pomegranate"],
       ],
     },
     {
       id: "season-juices", title: "Season Juices", img: img("1619566636858-adf3ef46400b"), tag: "Only in season",
       desc: "Arrives with the harvest, leaves with it. Ask what's in today.",
       items: [
-        ["Anjeer", 110, "Fig"], ["Kiwi", 110], ["Dragon Fruit", 110], ["Avocado", 130, "Butter fruit"],
-        ["Sitaphal", 130, "Custard apple"], ["Strawberry", 130], ["Mango", 130], ["Jamun", 130],
+        ["Anjeer", 120, "Fig"], ["Kiwi", 120], ["Dragon Fruit", 120], ["Avocado", 140, "Butter fruit"],
+        ["Sitaphal", 140, "Custard apple"], ["Strawberry", 140], ["Mango", 140], ["Jamun", 140],
       ],
     },
     {
       id: "dryfruit-juices", title: "Dryfruit Juices", img: img("1550583724-b2692b85b150"),
       desc: "Rich, nutty and filling. Cashew, almond and fig blended thick.",
       items: [
-        ["Anjeer Badam", 210], ["Kaju Badam", 200], ["Kaju Shake", 200], ["Kaju Anjeer", 210],
-        ["Mix Dryfruit Juice", 230], ["Mix Dryfruit Punch", 280, null, true],
+        ["Anjeer Badam", 220], ["Kaju Badam", 210], ["Kaju Shake", 210], ["Kaju Anjeer", 220],
+        ["Mix Dryfruit Juice", 240], ["Mix Dryfruit Punch", 290, null, true],
       ],
     },
     {
       id: "scoop-ice-cream", title: "Scoop Ice Cream", img: img("1497034825429-c343d7c6a68f"),
       desc: "Classic scoops, served cold and simple.",
-      items: [["Vanilla", 80], ["Strawberry", 80], ["Butterscotch", 80], ["Chocolate", 100], ["Black Currant", 100]],
+      items: [["Vanilla", 90], ["Strawberry", 90], ["Butterscotch", 90], ["Chocolate", 110], ["Black Currant", 110]],
     },
     {
       id: "ice-cream-shakes", title: "Ice Cream Shakes", img: img("1572490122747-3968b75cc699"),
       desc: "Thick, cold, blended with ice cream. Dessert you can drink.",
       items: [
-        ["Vanilla", 110], ["Oreo", 130, null, true], ["Kitkat", 110], ["Chocolate", 110], ["Cold Coffee", 100],
-        ["Blackcurrant", 110], ["Butterscotch", 110], ["Choco Banana", 130, null, true], ["Boost Banana", 130],
-        ["Banana with Dryfruit", 100], ["Cold Boost", 100],
+        ["Vanilla", 120], ["Oreo", 140, null, true], ["Kitkat", 120], ["Chocolate", 120], ["Cold Coffee", 110],
+        ["Blackcurrant", 120], ["Butterscotch", 120], ["Choco Banana", 140, null, true], ["Boost Banana", 140],
+        ["Banana with Dryfruit", 110], ["Cold Boost", 110],
       ],
     },
     {
       id: "juice-with-ice-cream", title: "Juice with Ice Cream", img: img("1623065422902-30a2d299bbe4"),
       desc: "Our punches: fresh fruit juice topped with a scoop of ice cream.",
       items: [
-        ["Papaya Punch", 100], ["Banana Punch", 100], ["Pineapple Punch", 110], ["Mix Fruit Punch", 120],
-        ["Chikoo Punch", 120], ["Muskmelon Punch", 120], ["Anjeer Punch", 160], ["Dragon Punch", 180],
-        ["Sitaphal Punch", 160], ["Strawberry Punch", 180, null, true], ["Mango Punch", 180, null, true], ["Avocado Punch", 180, null, true],
+        ["Papaya Punch", 110], ["Banana Punch", 110], ["Pineapple Punch", 120], ["Mix Fruit Punch", 130],
+        ["Chikoo Punch", 130], ["Muskmelon Punch", 130], ["Anjeer Punch", 170], ["Dragon Punch", 190],
+        ["Sitaphal Punch", 170], ["Strawberry Punch", 190, null, true], ["Mango Punch", 190, null, true], ["Avocado Punch", 190, null, true],
       ],
     },
     {
       id: "vegetable-juices", title: "Vegetable Juices", img: img("1560508180-03f285f67ded"),
       desc: "Earthy, clean and good for you.",
-      items: [["Carrot", 90], ["Beetroot", 90], ["Carrot Beetroot", 110], ["ABC", 120, "Apple · Carrot · Beetroot"]],
+      items: [["Carrot", 100], ["Beetroot", 100], ["Carrot Beetroot", 120], ["ABC", 130, "Apple · Carrot · Beetroot"]],
     },
     {
       id: "mocktails", title: "Mocktails", img: img("1595981267035-7b04ca84a82d"),
       desc: "Fizzy, colourful and made to be photographed.",
-      items: [["Blueberry", 110], ["Watermelon", 100, null, true], ["Blue Ice", 100]],
+      items: [["Blueberry", 120], ["Watermelon", 110, null, true], ["Blue Ice", 110]],
     },
   ];
 
